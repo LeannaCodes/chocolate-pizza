@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+.header-titles {
+    display: flex;
+    flex-direction: column;
+    font-family: 'pacifico', curvise;
+    
+} 
+
+.header-font {
+    font-size: 50px;
+}
+
+#header-subtitle {
+    align-self: center;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+
+.logo-pic {
+    width: 90px;
+    padding-inline-start: 1rem;
+    padding-right: 1rem;
+}
