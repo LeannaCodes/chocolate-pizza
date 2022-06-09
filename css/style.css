@@ -1,22 +1,33 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: grey;
 }
 
 .header-titles {
     display: flex;
     flex-direction: column;
-    font-family: 'pacifico', curvise;
     
 } 
 
 .header-font {
-    font-size: 50px;
+    font-size: 70px;
+    font-family: 'pacifico', curvise;
+
 }
 
-#header-subtitle {
-    align-self: center;
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    padding-left: 2px;
+}
+
+p {
+    display: flex;
+    align-content: center;
+
 }
 
 .logo-box {
@@ -26,6 +37,37 @@ header {
 
 .logo-pic {
     width: 90px;
-    padding-inline-start: 1rem;
     padding-right: 1rem;
+}
+
+#rss-icon {
+    margin-left: 10px;
+}
+
+/* Main css begins here */
+
+.zebra-lines {
+    height: 1rem;
+    background-image: url('../images/hr-img.png');
+    background-repeat: repeat;
+    margin: 20px 0 40px 0;
+}
+.first-section {
+    display: flex;
+    justify-content: space-around
+    
+    ;
+}
+
+#header-subtitle {
+    font-family: 'Raleway',sans-serif;
+}
+
+.chocolate-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+
+.chocolate-subTitle, .chocolate-print {
+    font-family: 'Raleway',sans-serif;
 }
